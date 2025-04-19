@@ -1,8 +1,8 @@
-const sumar = require('./suma');
+import sumar from './suma';
 
-const restar = require('./resta');
+import restar from './resta';
 
-const multiplicar = require('./multiplicacion');
+import multiplicar from './multiplicacion';
 
 console.log("Calculadora iniciada");
 
@@ -12,3 +12,4 @@ let num2= 3;
 console.log("Resultado de la suma: "+sumar(num1,num2));
 console.log("Resultado de la resta: " +restar(num1,num2));
 console.log("Resultado de la multiplicacion: " +multiplicar(num1, num2));
+
